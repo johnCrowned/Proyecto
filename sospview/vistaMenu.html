@@ -1,0 +1,71 @@
+<!--
+||||||||||||||||||||||||||||||||||||||
+
+Diseñado por keyquotes
+web: www.keyquotes.es
+desarrollador: Álvaro Castillo
+año: 2014
+
+||||||||||||||||||||||||||||||||||||||
+-->
+
+
+<!doctype html>
+<?php
+session_start();
+?>
+<html lang="en" class="html">
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+	<link rel="stylesheet" href="css/master.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<meta charset= "UTF-8"/>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5, CSS3, JavaScript" />
+        <title>index</title>
+        <link rel="stylesheet" href="css/aprendices.css">
+        <link  rel="stylesheet" href="css/menu.css">
+<body class="body">
+
+
+
+
+	<div class="div_menuIsquierdo col-md-2">	
+	<center><div id="imagen"> <img src="images/logo.png" width="120" height="120" alt=""> </div></center>
+	<a class="a" href="../usuario/usuariovista.php" target ="cf"><div class="bton"> <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Usuario</div></a>
+
+	<a class="a" href="../customerHasRol/documento.php" target ="cf"><div class="bton"> <span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Cliente Has Rol</div></a>
+
+    <a class="a" href="../customer/documento.php" target ="cf"><div class="bton"> <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Cliente</div></a>
+
+    <a class="a" href="../VALORACION/vista.php" target ="cf"><div class="bton"> <span class="glyphicon glyphicon-book" aria-hidden="true"></span> valoracion</div></a>
+
+    <a class="a" href="../Rol/vista.php" target ="cf"><div class="bton"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> rol</div></a>
+
+	<a class="a" href="../tipoinstructor/vista.php" target ="cf"><div class="bton"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> tipo de instructor</div></a>
+
+	<a class="a" href="../nivelformacion/vista.php" target ="cf"><div class="bton"><span class="glyphicon glyphicon-indent-left" aria-hidden="true"></span> nivel de formacion</div></a>
+
+	<a class="a" href="../ProgramaStatus/vista.php" target ="cf"><div class="bton"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> estado de formacion</div></a>
+
+	<a class="a" href="../jornada/jornadaDocumento.php" target ="cf"><div class="bton"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Jornada</div></a>
+
+	<a class="a" href="../TipoDocumento/documentTypeDocumento.php" target ="cf"><div class="bton"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span> Tipo de Documento</div></a>
+
+	<a class="a" href="head.html" ><div class="bton"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar sesion</div></a>
+	</div>
+
+	<div class="div_iframe col-md-10">
+	<iframe  name="cf" class="iframe_class" scrolling="auto" src=""></iframe>
+    </div> 
+
+    <!--<footer id="cierre"> Derechos Reservados SOSP 2017 </footer>-->
+
+	
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 20px auto;	
+border-radius: 30px;
+background:
+}
+
+body{
+background:url(imagenes/img02.jpg) repeat;
+}
+.navegacion ul{
+	list-style: none;
+	border-radius: 30px;
+
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	font-size: large;
+}
+
+.menu > li > a{
+	
+	padding: 0px 70px;
+	color:#ff7f00;
+	font-family: 'Open sans';
+	text-decoration: none;
+	font-size: xx-large;
+	background-color:#0c0803;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+	font-size: large;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.logo{
+
+	margin-top: 300px;
+}
+#estiloLetra{
+    color: #ff7f00;
+  
+    font-size: large;
+}
+.volver{
+	height: 30px;
+	width: 100px;
+}	

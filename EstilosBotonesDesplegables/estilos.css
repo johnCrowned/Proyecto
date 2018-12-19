@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 20px auto;	
+border-radius: 30px;
+background:
+}
+
+body{
+background:url(imagenes/img02.jpg) repeat;
+}
+.navegacion ul{
+	list-style: none;
+	border-radius: 30px;
+
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	font-size: large;
+}
+
+.menu > li > a{
+	
+	
+	color:#fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+	font-size: xx-large;
+	background-color:#333;
+}
+
+.menu li a:hover{
+	color: #fff;
+	transition: all .3s;
+	font-size: large;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background:black;
+	width: 120%;
+	visibility: hidden;
+	opacity: 4;
+	transition: opacity 0s;
+	
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+	
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	position: relative;
+	
+}
+.logo{
+
+	margin-top: 300px;
+}
+#estiloLetraa{
+    color: #fff;
+  
+    font-size: large;
+}
+.volver{
+	height: 30px;
+	width: 100px;
+}	

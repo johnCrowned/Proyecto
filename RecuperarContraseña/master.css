@@ -1,0 +1,143 @@
+	.Container{
+width: 900 px;	
+	
+}
+.contenedor{
+		    padding: 50px;
+    background-image: url(log_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.contenedor2{
+		font-family: 'Dosis', sans-serif;
+		border: 1px solid black;
+		margin-left: 50px;
+    	margin-top: 50px;
+    	border-radius: 3px;
+	}
+	.contenedor3{
+	
+	border: 1px solid black;
+    margin-left: 50px;
+    margin-top: -10px;
+    width: 220px;
+    height: 250px;
+    border-radius: 3px;
+	}
+
+	.iten_one{
+	height: 35px;
+	width: 300px;
+    border-bottom: 1px solid black;
+    background-color: #4FC3F7;
+	}
+	.img_logo{
+	width: 100%;
+    height: 230px;
+    border-bottom: 1px solid black;
+	}
+	.items_{
+	border-bottom: 1px solid black;
+    height: 35px;
+	}
+	.items_bott{
+    height: 35px;
+	}
+.controles{
+	width: 270px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    margin-bottom: 25px;
+}
+.padding{
+	font-family: 'Dosis', sans-serif;
+	    padding: 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    border-bottom: 1px solid black;
+    width: 102%;
+    margin-left: -1%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.activo {
+	font-family: 'Dosis', sans-serif;
+    background-color: red;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.salir{
+	float:right;
+	margin-right: 5%;
+}
+.img{
+    width: 280px;
+    margin-left: 10px;
+}
+
+.img_{
+    width: 100%;
+}
+.foote{
+	font-family: 'Dosis', sans-serif;
+	text-align:center;
+	}
+	
+@font-face {
+font-family: 'Dosis', sans-serif;
+src: url(https://fonts.googleapis.com/css?family=Dosis|Ravi+Prakash" rel="stylesheet);
+}
+.stiloLetra{
+	font-family: 'Dosis', sans-serif;
+	
+	}
+    .bott{
+            width: 120px;
+        height: 25px;
+    }
+    .bottinicio{
+        margin-left: 2%;
+            width: 120px;
+        height: 25px;
+    }
+    .zul{
+        position: absolute;
+    border: 1px solid rgba(79, 195, 247, 0.63);
+    height: 40px;
+    margin-top: -30px;
+    width: 100%;
+    box-shadow: 5px 2px 30px 5px #4fc3f7;
+    background-color: #4fc3f7;
+}
+.ttle{
+    font-family: 'Dosis', sans-serif;
+        margin-top: 30px;
+    position: absolute;
+    margin-left: 40%;
+}
+

@@ -1,0 +1,132 @@
+
+.html, .body, iframe{
+margin:0px;
+height:100%;
+padding: 5px;
+background-color: silver;
+}
+
+.a {
+    text-decoration: none;
+        color: #b9b9b9;
+        font-size: large;
+}
+.a:hover {
+    text-decoration: none;
+        color: #ffffff;
+}
+.a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.a:active {
+	color: #ffffff;
+    text-decoration: underline;
+}
+
+.div_menuIsquierdo{
+	  border: 1px solid #fffbfb;
+    height: 130%;
+    background-color: #2d2d2d;
+    border-radius: 0px 17px 17px 0px;
+}
+.div_fotoperfil{
+width:50%;
+border-radius: 200px;
+margin-right: -160px;
+
+
+}
+
+
+#estiloLetra{
+    color: #ff7f00;
+  
+    font-size: large;
+}
+.divcerrar{
+    margin-top:-85px;
+    margin-left:55%;
+    height: 100px;
+    color:#ff7f00;
+    font-size: x-large;    
+}
+
+
+
+.div_iframe{
+margin-top: 140px;
+height: 108%;	
+}
+.div_perfil{
+
+height: 180PX;
+background-color:#060606;
+border: 1px solid rgba(45, 45, 45, 0.17);
+box-shadow: 1px 1px 18px 2px #fff;
+border-radius: 17px 0px 0px 17px;
+
+
+
+}
+.iframe_class{
+	border: 1px solid rgba(45, 45, 45, 0.17);
+    width: 100%;
+    height: 100%;
+    margin-top: -120px;
+    background-color: ##777;
+    box-shadow: 1px 1px 18px 2px #fff;
+    border-radius: 17px 0px 0px 17px;
+}
+.botondos{
+border: 1px solid #5d5d5d;
+    margin-top: 8px;
+    padding-left: 50px;
+    
+   height: 20px:;
+
+}
+.bton{
+	border: 1px solid #5d5d5d;
+    margin-top: 3px;
+    padding-left: 5px;
+}.bton:hover{
+	    border: 1px solid #9c9b9b;
+    margin-top: 3px;
+    padding-left: 5px;
+    background-color: #565656;
+    box-shadow: 3px 0px 12px 1px #fffafa;
+}
+
+#letra{
+font-size: large;
+color:#ff7f00;
+
+
+}
+.volver{
+    height: 30px;
+    width: 100px;
+}
+.divcerrar2{
+    margin-top:80px;
+    margin-left:-520px;
+    height: 100px;
+    color:#fff;
+    font-size: x-large;    
+}
+.divcerrar3{
+    margin-top:80px;
+    margin-left:100px;
+    height: 100px;
+    color:#333;
+    font-size: x-large;    
+}
+.divFotoo{
+width: 130px;
+height: 150px;
+
+background-color: #333;
+
+}
+thumb
